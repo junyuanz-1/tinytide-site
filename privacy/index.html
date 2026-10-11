@@ -3,112 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy — Lullo</title>
-  <meta name="title-en" content="Privacy Policy — Lullo">
-  <meta name="title-zh" content="隐私政策 — 摇摇">
+  <title data-i18n="privacy.title">Privacy Policy — Lullo</title>
   <meta name="description" content="Lullo collects no data. Everything stays on your device and in your own private iCloud.">
   <link rel="icon" href="../favicon.png">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/i18n.js"></script>
   <script src="../assets/site.js"></script>
 </head>
 <body>
   <div class="wrap">
     <header class="nav">
-      <a class="brand" href="../"><img src="../assets/icon.png" alt=""><span data-l="en">Lullo</span><span data-l="zh">摇摇</span></a>
+      <a class="brand" href="../"><img src="../assets/icon.png" alt=""><span data-i18n="brand">Lullo</span></a>
       <nav class="nav-links">
-        <a class="hide-sm" href="../support/"><span data-l="en">Support</span><span data-l="zh">帮助</span></a>
-        <button class="lang-toggle" type="button" aria-label="Switch language / 切换语言"><span data-l="en">中文</span><span data-l="zh">English</span></button>
+        <a class="hide-sm" href="../support/" data-i18n="nav.support">Support</a>
+        <label class="lang-picker">
+          <span class="sr-only" data-i18n="lang.label">Language</span>
+          <select class="lang-select" aria-label="Language"></select>
+        </label>
       </nav>
     </header>
 
     <main class="doc">
-      <!-- English -->
-      <div data-l="en">
-        <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: October 11, 2026</p>
-        <p>Lullo is designed so that <strong>your family's data stays with you</strong>.</p>
+      <h1 data-i18n="privacy.h1">Privacy Policy</h1>
+      <p class="updated" data-i18n="privacy.updated">Last updated: October 11, 2026</p>
+      <p class="translation-note" data-i18n="privacy.translation_note" hidden></p>
+      <p data-i18n="privacy.intro">Lullo is designed so that <strong>your family's data stays with you</strong>.</p>
 
-        <h2>What we collect</h2>
-        <p>Nothing. Lullo has no servers, no accounts, no analytics, no advertising and no tracking. The developer cannot see anything you log.</p>
+      <h2 data-i18n="privacy.collect.h">What we collect</h2>
+      <p data-i18n="privacy.collect.p">Nothing. Lullo has no servers, no accounts, no analytics, no advertising and no tracking. The developer cannot see anything you log.</p>
 
-        <h2>Where your data is stored</h2>
-        <ul>
-          <li>On your device, and in <strong>your own private iCloud database</strong> (Apple CloudKit) if you are signed in to iCloud. This is how Lullo backs up your data and syncs it between your devices. Apple provides this storage under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
-          <li>Widgets and Live Activities read a small summary stored on your device.</li>
-        </ul>
+      <h2 data-i18n="privacy.where.h">Where your data is stored</h2>
+      <ul>
+        <li data-i18n="privacy.where.li1">On your device, and in <strong>your own private iCloud database</strong> (Apple CloudKit) if you are signed in to iCloud. This is how Lullo backs up your data and syncs it between your devices. Apple provides this storage under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+        <li data-i18n="privacy.where.li2">Widgets and Live Activities read a small summary stored on your device.</li>
+      </ul>
 
-        <h2>Sharing with family</h2>
-        <p>If you choose to share a baby with someone, Apple's iCloud sharing makes that baby's entries available to the people you invite. You can see who has access, and stop sharing at any time, in <strong>More → Family &amp; Caregivers</strong>.</p>
+      <h2 data-i18n="privacy.sharing.h">Sharing with family</h2>
+      <p data-i18n="privacy.sharing.p">If you choose to share a baby with someone, Apple's iCloud sharing makes that baby's entries available to the people you invite. You can see who has access, and stop sharing at any time, in <strong>More → Family &amp; Caregivers</strong>.</p>
 
-        <h2>Exports</h2>
-        <p>Backup and CSV files are created only when you ask, and go only where you send them.</p>
+      <h2 data-i18n="privacy.exports.h">Exports</h2>
+      <p data-i18n="privacy.exports.p">Backup and CSV files are created only when you ask, and go only where you send them.</p>
 
-        <h2>Notifications</h2>
-        <p>Reminders are scheduled locally on your device.</p>
+      <h2 data-i18n="privacy.notifications.h">Notifications</h2>
+      <p data-i18n="privacy.notifications.p">Reminders are scheduled locally on your device.</p>
 
-        <h2>Purchases</h2>
-        <p>The optional Lullo Supporter subscription and tips are processed entirely by Apple through In-App Purchase. Lullo never receives your payment details.</p>
+      <h2 data-i18n="privacy.purchases.h">Purchases</h2>
+      <p data-i18n="privacy.purchases.p">The optional Lullo Supporter subscription and tips are processed entirely by Apple through In-App Purchase. Lullo never receives your payment details.</p>
 
-        <h2>Children's privacy</h2>
-        <p>Parents and caregivers use Lullo to record information about their children. Lullo does not collect any of that information.</p>
+      <h2 data-i18n="privacy.children.h">Children's privacy</h2>
+      <p data-i18n="privacy.children.p">Parents and caregivers use Lullo to record information about their children. Lullo does not collect any of that information.</p>
 
-        <h2>Deleting your data</h2>
-        <p>Delete a baby in <strong>More → Babies</strong>, or delete the app. To remove the iCloud copy, open <strong>Settings → [your name] → iCloud → Manage Account Storage → Lullo</strong> on your iPhone.</p>
+      <h2 data-i18n="privacy.delete.h">Deleting your data</h2>
+      <p data-i18n="privacy.delete.p">Delete a baby in <strong>More → Babies</strong>, or delete the app. To remove the iCloud copy, open <strong>Settings → [your name] → iCloud → Manage Account Storage → Lullo</strong> on your iPhone.</p>
 
-        <h2>Changes</h2>
-        <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+      <h2 data-i18n="privacy.changes.h">Changes</h2>
+      <p data-i18n="privacy.changes.p">If this policy changes, the new version will be posted on this page with a new date.</p>
 
-        <h2>Contact</h2>
-        <p>Questions about this policy? Email <a href="mailto:lullo.support@gmail.com">lullo.support@gmail.com</a>, or see the <a href="../support/">Support page</a>.</p>
-      </div>
-
-      <!-- 简体中文 -->
-      <div data-l="zh">
-        <h1>隐私政策</h1>
-        <p class="updated">最后更新：2026 年 10 月 11 日</p>
-        <p>摇摇（Lullo）的设计原则是：<strong>你家的数据只属于你</strong>。</p>
-
-        <h2>我们收集什么数据</h2>
-        <p>不收集任何数据。摇摇没有服务器、不需要注册账号，没有数据分析，没有广告，也没有任何追踪。开发者看不到你记录的任何内容。</p>
-
-        <h2>数据存放在哪里</h2>
-        <ul>
-          <li>存放在你的设备上；如果登录了 iCloud，也会存放在<strong>你自己的私有 iCloud 数据库</strong>（Apple CloudKit）中，用于备份和在你的设备之间同步。这部分存储由 Apple 依照 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a> 提供。</li>
-          <li>小组件和实时活动读取的是保存在你设备上的一份简要摘要。</li>
-        </ul>
-
-        <h2>与家人共享</h2>
-        <p>如果你选择共享某个宝宝，Apple 的 iCloud 共享会让你邀请的人看到该宝宝的记录。你可以随时在 <strong>更多 → 家人与看护人</strong> 中查看谁有访问权限，或停止共享。</p>
-
-        <h2>导出</h2>
-        <p>备份文件和 CSV 文件只在你主动导出时生成，并且只会发送到你选择的地方。</p>
-
-        <h2>通知</h2>
-        <p>提醒都在你的设备上本地生成和安排。</p>
-
-        <h2>购买</h2>
-        <p>“摇摇支持者”订阅和打赏都是自愿的，全程由 Apple 通过 App 内购买处理，摇摇不会接触到你的任何支付信息。</p>
-
-        <h2>儿童隐私</h2>
-        <p>家长和看护人用摇摇记录孩子的情况，但摇摇不会收集任何这些信息。</p>
-
-        <h2>删除数据</h2>
-        <p>在 <strong>更多 → 宝宝</strong> 中删除宝宝，或直接删除 App。如需删除 iCloud 中的数据，请在 iPhone 上前往 <strong>设置 → [你的名字] → iCloud → 管理账户储存空间 → 摇摇</strong>。</p>
-
-        <h2>政策更新</h2>
-        <p>如果本政策有变更，新版本会发布在本页面，并更新日期。</p>
-
-        <h2>联系我们</h2>
-        <p>对本政策有疑问？请发邮件到 <a href="mailto:lullo.support@gmail.com">lullo.support@gmail.com</a>，或查看 <a href="../support/">帮助与支持</a> 页面。</p>
-      </div>
+      <h2 data-i18n="privacy.contact.h">Contact</h2>
+      <p data-i18n="privacy.contact.p">Questions about this policy? Email <a href="mailto:lullo.support@gmail.com">lullo.support@gmail.com</a>, or see the <a href="../support/">Support page</a>.</p>
     </main>
 
     <footer>
       <span>© 2026 Lullo</span>
       <nav>
-        <a href="../"><span data-l="en">Home</span><span data-l="zh">首页</span></a>
-        <a href="../support/"><span data-l="en">Support</span><span data-l="zh">帮助与支持</span></a>
+        <a href="../" data-i18n="nav.home">Home</a>
+        <a href="../support/" data-i18n="footer.support">Support</a>
       </nav>
     </footer>
   </div>
