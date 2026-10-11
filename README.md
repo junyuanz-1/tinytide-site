@@ -1,6 +1,6 @@
-# Lullo website
+# Tinytide website
 
-Public pages for the Lullo (摇摇) iOS app, served with GitHub Pages:
+Public pages for the Tinytide (摇摇) iOS app, served with GitHub Pages:
 
 | Page | Path | Used for |
 |---|---|---|

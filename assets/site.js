@@ -1,5 +1,5 @@
 // Localizes the page. English is the HTML itself; other languages come from
-// window.LULLO_I18N (assets/i18n.js). The language is the saved choice, else
+// window.TINYTIDE_I18N (assets/i18n.js). The language is the saved choice, else
 // the browser language, else English.
 (function () {
   var LANGS = [
@@ -13,11 +13,11 @@
     ["fr", "Français"],
     ["de", "Deutsch"]
   ];
-  var dicts = window.LULLO_I18N || {};
+  var dicts = window.TINYTIDE_I18N || {};
 
   function detect() {
     var saved = null;
-    try { saved = localStorage.getItem("lullo-lang"); } catch (e) {}
+    try { saved = localStorage.getItem("tinytide-lang"); } catch (e) {}
     if (saved && (saved === "en" || dicts[saved])) return saved;
     var prefs = navigator.languages || [navigator.language || "en"];
     for (var i = 0; i < prefs.length; i++) {
@@ -62,7 +62,7 @@
     select.value = lang;
     select.addEventListener("change", function () {
       apply(select.value);
-      try { localStorage.setItem("lullo-lang", select.value); } catch (e) {}
+      try { localStorage.setItem("tinytide-lang", select.value); } catch (e) {}
     });
   });
 })();
