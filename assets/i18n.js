@@ -51,7 +51,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "政策更新",
   "privacy.changes.p": "如果本政策有变更，新版本会发布在本页面，并更新日期。",
   "privacy.contact.h": "联系我们",
-  "privacy.contact.p": "对本政策有疑问？请发邮件到 <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a>，或查看 <a href=\"../support/\">帮助与支持</a> 页面。",
+  "privacy.contact.p": "对本政策有疑问？请发邮件到 <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a>，或查看 <a href=\"../support/\">帮助与支持</a> 页面。",
   "privacy.translation_note": "本译文仅供参考，如有歧义，以英文版本为准。",
   "support.title": "帮助与支持 — 摇摇",
   "support.h1": "帮助与支持",
@@ -77,7 +77,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "摇摇提供医疗建议吗？",
   "support.medical.p": "不提供。睡眠预测、生长百分位和健康提示仅供参考。宝宝的健康问题请咨询儿科医生。",
   "support.contact.h": "还需要帮助？",
-  "support.contact.p": "请发邮件到 <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a>，我们通常会在几天内回复。请告诉我们你的 iPhone 型号和 iOS 版本，不要在邮件中填写宝宝的个人信息。"
+  "support.contact.p": "请发邮件到 <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a>，我们通常会在几天内回复。请告诉我们你的 iPhone 型号和 iOS 版本，不要在邮件中填写宝宝的个人信息。"
  },
  "zh-Hant": {
   "nav.support": "支援",
@@ -130,7 +130,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "政策變更",
   "privacy.changes.p": "如果本政策有所變更，新版本會連同新的日期公布在此頁面。",
   "privacy.contact.h": "聯絡我們",
-  "privacy.contact.p": "對本政策有疑問嗎？請寄電子郵件至 <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a>，或參閱<a href=\"../support/\">支援頁面</a>。",
+  "privacy.contact.p": "對本政策有疑問嗎？請寄電子郵件至 <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a>，或參閱<a href=\"../support/\">支援頁面</a>。",
   "privacy.translation_note": "本譯文僅為方便閱讀而提供，如內容有任何出入，以英文版本為準。",
   "support.title": "支援 — 搖搖",
   "support.h1": "支援",
@@ -156,7 +156,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "搖搖提供的是醫療建議嗎？",
   "support.medical.p": "不是。睡眠預測、生長百分位和健康提示僅供一般參考。寶寶的健康問題，請務必與小兒科醫師討論。",
   "support.contact.h": "仍需要協助嗎？",
-  "support.contact.p": "請寄電子郵件至 <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a>，我們通常會在幾天內回覆你。請告訴我們你的 iPhone 機型和 iOS 版本，也請不要附上寶寶的個人資料。"
+  "support.contact.p": "請寄電子郵件至 <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a>，我們通常會在幾天內回覆你。請告訴我們你的 iPhone 機型和 iOS 版本，也請不要附上寶寶的個人資料。"
  },
  "ja": {
   "nav.support": "サポート",
@@ -209,7 +209,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "変更について",
   "privacy.changes.p": "本ポリシーを変更する場合は、新しい日付とともにこのページに掲載します。",
   "privacy.contact.h": "お問い合わせ",
-  "privacy.contact.p": "本ポリシーに関するご質問は、<a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a>までメールでお寄せいただくか、<a href=\"../support/\">サポートページ</a>をご覧ください。",
+  "privacy.contact.p": "本ポリシーに関するご質問は、<a href=\"mailto:support@tinytide.app\">support@tinytide.app</a>までメールでお寄せいただくか、<a href=\"../support/\">サポートページ</a>をご覧ください。",
   "privacy.translation_note": "この翻訳は便宜上提供しているものです。内容に相違がある場合は、英語版が優先されます。",
   "support.title": "サポート — Tinytide",
   "support.h1": "サポート",
@@ -235,7 +235,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "Tinytideは医学的なアドバイスを提供しますか？",
   "support.medical.p": "いいえ。睡眠の予測、成長パーセンタイル、健康に関するアラートは、あくまで一般的な目安です。赤ちゃんの健康については、必ず小児科医にご相談ください。",
   "support.contact.h": "解決しない場合は",
-  "support.contact.p": "<a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a>までメールでお問い合わせください。通常、数日以内にご返信します。お使いのiPhoneの機種とiOSのバージョンをお知らせください。なお、赤ちゃんの個人情報は記載しないでください。"
+  "support.contact.p": "<a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a>までメールでお問い合わせください。通常、数日以内にご返信します。お使いのiPhoneの機種とiOSのバージョンをお知らせください。なお、赤ちゃんの個人情報は記載しないでください。"
  },
  "ko": {
   "nav.support": "지원",
@@ -288,7 +288,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "변경 사항",
   "privacy.changes.p": "이 방침이 변경되면 새 버전을 새 날짜와 함께 이 페이지에 게시할게요.",
   "privacy.contact.h": "문의",
-  "privacy.contact.p": "이 방침에 대해 궁금한 점이 있으신가요? <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a>으로 이메일을 보내거나 <a href=\"../support/\">지원 페이지</a>를 확인하세요.",
+  "privacy.contact.p": "이 방침에 대해 궁금한 점이 있으신가요? <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a>으로 이메일을 보내거나 <a href=\"../support/\">지원 페이지</a>를 확인하세요.",
   "privacy.translation_note": "이 번역본은 편의를 위해 제공되며, 내용에 차이가 있을 경우 영문판이 우선해요.",
   "support.title": "지원 — Tinytide",
   "support.h1": "지원",
@@ -314,7 +314,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "Tinytide가 의학적 조언을 제공하나요?",
   "support.medical.p": "아니요. 수면 예측, 성장 백분위, 건강 알림은 일반적인 참고 정보일 뿐이에요. 아기의 건강에 관해서는 항상 소아과 의사와 상담하세요.",
   "support.contact.h": "아직 도움이 필요하신가요?",
-  "support.contact.p": "<a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a>으로 이메일을 보내 주시면 보통 며칠 안에 답변드려요. iPhone 모델과 iOS 버전을 알려 주시고, 아기의 개인 정보는 포함하지 마세요."
+  "support.contact.p": "<a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a>으로 이메일을 보내 주시면 보통 며칠 안에 답변드려요. iPhone 모델과 iOS 버전을 알려 주시고, 아기의 개인 정보는 포함하지 마세요."
  },
  "es": {
   "nav.support": "Ayuda",
@@ -367,7 +367,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "Cambios",
   "privacy.changes.p": "Si esta política cambia, la nueva versión se publicará en esta página con una nueva fecha.",
   "privacy.contact.h": "Contacto",
-  "privacy.contact.p": "¿Tienes preguntas sobre esta política? Escribe a <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a> o consulta la <a href=\"../support/\">página de ayuda</a>.",
+  "privacy.contact.p": "¿Tienes preguntas sobre esta política? Escribe a <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a> o consulta la <a href=\"../support/\">página de ayuda</a>.",
   "privacy.translation_note": "Esta traducción se ofrece para tu comodidad; si hay alguna diferencia, prevalece la versión en inglés.",
   "support.title": "Ayuda — Tinytide",
   "support.h1": "Ayuda",
@@ -393,7 +393,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "¿Tinytide ofrece consejo médico?",
   "support.medical.p": "No. Las predicciones de sueño, los percentiles de crecimiento y las alertas de salud son solo orientaciones generales. Habla siempre con tu pediatra sobre la salud de tu bebé.",
   "support.contact.h": "¿Aún necesitas ayuda?",
-  "support.contact.p": "Escríbenos a <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a> y te responderemos, normalmente en unos días. Indícanos el modelo de tu iPhone y la versión de iOS, y no incluyas datos personales de tu bebé."
+  "support.contact.p": "Escríbenos a <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a> y te responderemos, normalmente en unos días. Indícanos el modelo de tu iPhone y la versión de iOS, y no incluyas datos personales de tu bebé."
  },
  "pt-BR": {
   "nav.support": "Suporte",
@@ -446,7 +446,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "Alterações",
   "privacy.changes.p": "Se esta política mudar, a nova versão será publicada nesta página com uma nova data.",
   "privacy.contact.h": "Contato",
-  "privacy.contact.p": "Dúvidas sobre esta política? Envie um e-mail para <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a> ou veja a <a href=\"../support/\">página de Suporte</a>.",
+  "privacy.contact.p": "Dúvidas sobre esta política? Envie um e-mail para <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a> ou veja a <a href=\"../support/\">página de Suporte</a>.",
   "privacy.translation_note": "Esta tradução é fornecida para sua conveniência. Em caso de divergência, prevalece a versão em inglês.",
   "support.title": "Suporte — Tinytide",
   "support.h1": "Suporte",
@@ -472,7 +472,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "O Tinytide oferece aconselhamento médico?",
   "support.medical.p": "Não. As previsões de sono, os percentis de crescimento e os alertas de saúde são apenas orientações gerais. Sempre converse com o pediatra sobre a saúde do seu bebê.",
   "support.contact.h": "Ainda precisa de ajuda?",
-  "support.contact.p": "Envie um e-mail para <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a> e responderemos, geralmente em poucos dias. Informe o modelo do seu iPhone e a versão do iOS, e não inclua dados pessoais do seu bebê."
+  "support.contact.p": "Envie um e-mail para <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a> e responderemos, geralmente em poucos dias. Informe o modelo do seu iPhone e a versão do iOS, e não inclua dados pessoais do seu bebê."
  },
  "fr": {
   "nav.support": "Assistance",
@@ -525,7 +525,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "Modifications",
   "privacy.changes.p": "Si cette politique change, la nouvelle version sera publiée sur cette page avec une nouvelle date.",
   "privacy.contact.h": "Contact",
-  "privacy.contact.p": "Des questions sur cette politique ? Écrivez à <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a> ou consultez la <a href=\"../support/\">page d’assistance</a>.",
+  "privacy.contact.p": "Des questions sur cette politique ? Écrivez à <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a> ou consultez la <a href=\"../support/\">page d’assistance</a>.",
   "privacy.translation_note": "Cette traduction est fournie à titre indicatif ; en cas de divergence, la version anglaise fait foi.",
   "support.title": "Assistance — Tinytide",
   "support.h1": "Assistance",
@@ -551,7 +551,7 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "Tinytide fournit-elle des conseils médicaux ?",
   "support.medical.p": "Non. Les prévisions de sommeil, les percentiles de croissance et les alertes de santé ne sont que des repères généraux. Parlez toujours de la santé de votre bébé avec votre pédiatre.",
   "support.contact.h": "Besoin d’aide supplémentaire ?",
-  "support.contact.p": "Écrivez-nous à <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a> et nous vous répondrons, généralement sous quelques jours. Indiquez-nous votre modèle d’iPhone et votre version d’iOS, et n’incluez pas les données personnelles de votre bébé."
+  "support.contact.p": "Écrivez-nous à <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a> et nous vous répondrons, généralement sous quelques jours. Indiquez-nous votre modèle d’iPhone et votre version d’iOS, et n’incluez pas les données personnelles de votre bébé."
  },
  "de": {
   "nav.support": "Support",
@@ -604,7 +604,7 @@ window.TINYTIDE_I18N = {
   "privacy.changes.h": "Änderungen",
   "privacy.changes.p": "Wenn sich diese Richtlinie ändert, wird die neue Version mit neuem Datum auf dieser Seite veröffentlicht.",
   "privacy.contact.h": "Kontakt",
-  "privacy.contact.p": "Fragen zu dieser Richtlinie? Schreib an <a href=\"mailto:lullo.support@gmail.com\">lullo.support@gmail.com</a> oder besuche die <a href=\"../support/\">Support-Seite</a>.",
+  "privacy.contact.p": "Fragen zu dieser Richtlinie? Schreib an <a href=\"mailto:support@tinytide.app\">support@tinytide.app</a> oder besuche die <a href=\"../support/\">Support-Seite</a>.",
   "privacy.translation_note": "Diese Übersetzung dient nur der Orientierung. Bei Abweichungen gilt die englische Fassung.",
   "support.title": "Support – Tinytide",
   "support.h1": "Support",
@@ -630,6 +630,6 @@ window.TINYTIDE_I18N = {
   "support.medical.q": "Ist Tinytide eine medizinische Beratung?",
   "support.medical.p": "Nein. Schlafvorhersagen, Wachstumsperzentilen und Gesundheitshinweise dienen nur zur allgemeinen Orientierung. Sprich bei Fragen zur Gesundheit deines Babys immer mit deiner Kinderarztpraxis.",
   "support.contact.h": "Brauchst du noch Hilfe?",
-  "support.contact.p": "Schreib uns an <a href=\"mailto:lullo.support@gmail.com?subject=Tinytide%20Support\">lullo.support@gmail.com</a> – wir melden uns, meist innerhalb weniger Tage. Bitte nenne uns dein iPhone-Modell und deine iOS-Version und schicke keine persönlichen Daten deines Babys mit."
+  "support.contact.p": "Schreib uns an <a href=\"mailto:support@tinytide.app?subject=Tinytide%20Support\">support@tinytide.app</a> – wir melden uns, meist innerhalb weniger Tage. Bitte nenne uns dein iPhone-Modell und deine iOS-Version und schicke keine persönlichen Daten deines Babys mit."
  }
 };
