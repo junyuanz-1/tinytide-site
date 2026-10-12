@@ -8,7 +8,21 @@ Public pages for the Tinytide (摇摇) iOS app, served with GitHub Pages:
 | Privacy Policy | `/privacy/` | Privacy Policy URL in App Store Connect and in the app (`PRIVACY_POLICY_URL`) |
 | Support | `/support/` | Support URL in App Store Connect |
 
-Plain HTML and CSS, no build step. Every page is bilingual: text is marked `data-l="en"` or `data-l="zh"`, and `assets/site.js` shows one language based on the browser language or the toggle in the header.
+Plain HTML, CSS and a little JavaScript, in 9 languages (English, 简体中文, 繁體中文, 日本語, 한국어, Español, Português (Brasil), Français, Deutsch). The English text is in the HTML; `assets/site.js` swaps in the visitor's language (browser language, or the picker in the header) from `assets/i18n.js`.
+
+## Editing
+
+The pages and `assets/i18n.js` are generated. Edit the sources in `src/`, then rebuild and commit everything:
+
+```bash
+python3 src/build.py
+```
+
+| Source | What it holds |
+|---|---|
+| `src/tpl/` | Page templates; `{{key}}` is replaced with the English text |
+| `src/i18n/en.json` | English text for every key |
+| `src/i18n/<language>.json` | The same keys in each other language (the build fails if one is missing) |
 
 ## Publishing
 
@@ -25,4 +39,4 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
-When the privacy policy changes, update both languages and the "Last updated" date in `privacy/index.html`, and keep `PRIVACY.md` in the app repository in sync.
+When the privacy policy changes, update every language and the `privacy.updated` date in `src/i18n/`, rebuild, and keep `PRIVACY.md` in the app repository in sync.
