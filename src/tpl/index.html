@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="home.title">{{home.title}}</title>
+  <meta name="description" content="Track sleep, feeds, diapers and growth. Synced privately through your own iCloud and shared with family. No ads, no tracking.">
+  <meta property="og:title" content="Tinytide — the gentle baby tracker">
+  <meta property="og:description" content="Sleep, feeds, diapers and growth, synced privately through your iCloud.">
+  <meta property="og:image" content="assets/icon.png">
+  <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/i18n.js"></script>
+  <script src="assets/site.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    {{HEADER}}
+    <main>
+      <div class="hero">
+        <img src="assets/icon.png" alt="Tinytide app icon">
+        <h1 data-i18n="brand">{{brand}}</h1>
+        <p data-i18n="home.tagline">{{home.tagline}}</p>
+        <span class="badge" data-i18n="home.badge">{{home.badge}}</span>
+      </div>
+
+      <section>
+        <h2 data-i18n="home.features.title">{{home.features.title}}</h2>
+        <p class="lead" data-i18n="home.features.lead">{{home.features.lead}}</p>
+        <div class="grid">
+          <div class="card"><div class="emoji">🌙</div><h3 data-i18n="home.f1.title">{{home.f1.title}}</h3><p data-i18n="home.f1.body">{{home.f1.body}}</p></div>
+          <div class="card"><div class="emoji">🤱</div><h3 data-i18n="home.f2.title">{{home.f2.title}}</h3><p data-i18n="home.f2.body">{{home.f2.body}}</p></div>
+          <div class="card"><div class="emoji">🧷</div><h3 data-i18n="home.f3.title">{{home.f3.title}}</h3><p data-i18n="home.f3.body">{{home.f3.body}}</p></div>
+          <div class="card"><div class="emoji">📈</div><h3 data-i18n="home.f4.title">{{home.f4.title}}</h3><p data-i18n="home.f4.body">{{home.f4.body}}</p></div>
+          <div class="card"><div class="emoji">👨‍👩‍👧</div><h3 data-i18n="home.f5.title">{{home.f5.title}}</h3><p data-i18n="home.f5.body">{{home.f5.body}}</p></div>
+          <div class="card"><div class="emoji">⏱️</div><h3 data-i18n="home.f6.title">{{home.f6.title}}</h3><p data-i18n="home.f6.body">{{home.f6.body}}</p></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="privacy-callout">
+          <div class="emoji">🔒</div>
+          <div>
+            <h2 data-i18n="home.privacy.title">{{home.privacy.title}}</h2>
+            <p data-i18n="home.privacy.body">{{home.privacy.body}}</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Tinytide</span>
+      <nav>
+        <a href="support/" data-i18n="footer.support">{{footer.support}}</a>
+        <a href="privacy/" data-i18n="footer.privacy">{{footer.privacy}}</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
