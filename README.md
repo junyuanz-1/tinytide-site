@@ -14,6 +14,10 @@ Plain HTML and CSS, no build step. Every page is bilingual: text is marked `data
 
 Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder `/ (root)`.
 
+Custom domain: `tinytide.app` (the `CNAME` file). DNS is on Cloudflare: four `A` and four `AAAA`
+records on the apex pointing at GitHub Pages, plus `www` → `junyuanz1.github.io`, all **DNS only**
+(grey cloud). Enable **Enforce HTTPS** in the Pages settings once the certificate is issued.
+
 ## Previewing locally
 
 ```bash
